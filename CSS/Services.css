@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
+
+.Syntrax {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000;
+    font-size: 26px;
+    padding-top: 51.5px;
+    display: block;
+    margin-bottom: 9px;
+    padding-left: 20px
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    float: right;
+    padding-top: 54.5px;
+    font-size: 20px;
+    padding-left: 76px;
+    padding-right: 31px;
+}
+
+#experience h1 {
+    font-size: 47px;
+    padding-left: 23px;
+    margin-top: -9px;
+    margin-bottom: -7px;
+}
+
+#experience p {
+    padding-left: 24px;
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 9px;
+}
+
+
+nav a {
+    font-family: "be vietnam", sans-serif;
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.inpage {
+    color: #f092cb;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.our {
+    color: #6155A6;
+    font-size: 43px;
+}
+
+.morado {
+    color: #6155A6;
+    font-size: 43px;
+    padding-left: 7.5px
+}
+
+#charact {
+    margin-top: 25px;
+}
+
+.more {
+    background-color: #F092CB;
+    border: none;
+    color: white;
+    padding: auto;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-top: 41px;
+    margin-left: 28px;
+}
+
+.Tik h2 {
+    font-size: 46px;
+    padding-left: 26px;
+    margin-top: 135px;
+}
+
+h6 {
+    font-size: 22.5px;
+    padding-left: 26px;
+    color: #6155A6;
+}
+
+.more:hover {
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+#experience {
+    padding-top: 7%;
+}
+
+#charact img {
+    display: flex;
+    margin-left: 60%;
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    transform: translate(-153px, -229px);
+    width: 42%;
+}
+
+
+.verde h6 {
+    font-size: 30px;
+}
+
+.form {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    resize: none;
+    padding: 5% 259px 5% 0px;
+    margin-left: 6px;
+    color: #303030;
+}
+
+#Contact {
+    margin-top: 4%;
+}
+
+.text h2 {
+    font-size: 30px;
+    color: #303030;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+#Contact img {
+    float: inline-start;
+}
+
+
+#footer {
+    background-color: #F8F8F8;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.contacto img {
+    float: left;
+}
+
+.copyright img {
+    float: left;
+}
