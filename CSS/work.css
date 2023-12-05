@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
+
+.Syntrax {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000;
+    font-size: 25px;
+    padding-top: 28.5px;
+    display: block;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    float: right;
+    padding-top: 26.5px;
+  }
+  
+  nav a {
+    font-family: "be vietnam", sans-serif;
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+  .inpage {
+    color: #f092cb;
+  }
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+#herowork h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 205px;
+}
+
+#herowork p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#workguy{
+    margin-top: -125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recentwork p{
+    font-size: 24px;
+    margin-left: 75px;
+}
+
+.workh2{
+    margin-top: 270px;
+    font-size: 48px;
+    margin-left: 75px;
+}
+
+.botonmorado{
+    background-color: #A685E2;
+    color: #fff;
+    width: 159px;
+    height: 64px;
+    border-radius: 50px;
+    border-color: #A685E2;
+    border: none;
+    font-size: 22px;
+    margin: 20px 35px 0px 50px;
+}
+
+.workbtn{
+    color: #A685E2;
+    width: 159px;
+    height: 64px;
+    border-radius: 50px;
+    border-color: #A685E2;
+    background-color: #fff;
+    font-size: 22px;
+    margin-right: 38px;
+    margin-bottom: 84px;
+}
+
+.cuadrado1{
+    height: 493px;
+    width: 383px;
+    background: #F1F1F1;
+    margin: 0px 120px 0px 50px;
+}
+
+.cuadrado2{
+    height: 493px;
+    width: 383px;
+    background: #F1F1F1;
+    margin: 88px 100px 0px 50px;
+}
+
+.cuadrado3{
+    height: 493px;
+    width: 383px;
+    background: #F1F1F1;
+    margin: 50px 120px 0px 50px;
+}
+
+.cuadrado4{
+    height: 493px;
+    width: 383px;
+    background: #F1F1F1;
+    margin: 140px 100px 0px 50px;
+}
+
+#abwork{
+    justify-content: space-evenly;
+}
+
+.vptext{
+    color: #A685E2;
+}
+
+.textomorado{
+    color: #A685E2;
+}
+
+#workfinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 280px;
+}
+
+.projecttexto{
+    font-size: 50px
+}
+
+.botoncont{
+    background-color: #f092cb;
+    width: 192px;
+    color: #fff;
+    height: 72px;
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+#contactobtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
