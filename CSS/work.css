@@ -123,6 +123,10 @@ nav a:hover{
     justify-content: space-evenly;
 }
 
+#abwork img{
+    max-width: 100%;
+}
+
 .vptext{
     color: #A685E2;
 }
