@@ -84,3 +84,156 @@ nav a:hover {
   font-size: 20px;
   margin-left: 24px;
 }
+
+#Services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.cards-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 90px; 
+}
+.card {
+  background: #F0F0F0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.card img {
+  margin-top: 30px;
+  max-width: 70%;
+  max-height: 70%;
+}
+.card-title {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-content {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.letcon {
+  margin-top: 100px;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.button2 {
+  background-color: #F092CB;
+  border: none;
+  color: white;
+  padding: auto;
+  width: 168px;
+  height: 56px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  margin-top: 20px;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+#letswork{
+  justify-content: space-evenly;
+  margin-top: 140px;
+}
+
+#letswork img{
+  max-width: 100%;
+  
+}
+
+.cuadrado1{
+  height: 493px;
+  width: 383px;
+  background: #F1F1F1;
+  margin: 0px 120px 0px 50px;
+}
+
+.cuadrado2{
+  height: 493px;
+  width: 383px;
+  background: #F1F1F1;
+  margin: 88px 100px 0px 50px;
+}
+
+.cuadrado3{
+  height: 493px;
+  width: 383px;
+  background: #F1F1F1;
+  margin: 50px 120px 0px 50px;
+}
+
+.cuadrado4{
+  height: 493px;
+  width: 383px;
+  background: #F1F1F1;
+  margin: 140px 100px 0px 50px;
+}
+
+.vptext{
+  color: #A685E2;
+}
+
+.letwor {
+  margin-top: 110px;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.footer div {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-bottom {
+  bottom: 100px;
+  width: 100%;
+  text-align: bottom;
+  padding: 10px 0;
+}
+
+.contacto img{
+  float: left;
+  margin-right: 5px;
+}
+
+.a-footer{
+  text-decoration: none;
+  color: #303030;
+}
+
+.copy{
+  margin-top: 50px;
+}
