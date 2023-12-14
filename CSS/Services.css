@@ -4,24 +4,33 @@
 .Syntrax {
     font-family: 'Space Grotesk', sans-serif;
     color: #000;
-    font-size: 26px;
-    padding-top: 51.5px;
+    font-size: 25px;
+    padding-top: 28.5px;
     display: block;
-    margin-bottom: 9px;
-    padding-left: 20px
-}
-
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     display: flex;
-    gap: 45px;
+    gap: 50px;
     float: right;
-    padding-top: 54.5px;
-    font-size: 20px;
-    padding-left: 76px;
-    padding-right: 31px;
-}
+    padding-top: 26.5px;
+  }
+  
+  nav a {
+    font-family: "be vietnam", sans-serif;
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+  }
+
+  .inpage {
+    color: #f092cb;
+  }
+
 
 #experience h1 {
     font-size: 47px;
@@ -153,17 +162,144 @@ h6 {
     float: inline-start;
 }
 
-
-#footer {
-    background-color: #F8F8F8;
-    padding-top: 25px;
-    height: 500px;
-}
-
 .contacto img {
     float: left;
 }
 
 .copyright img {
     float: left;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer div {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-bottom {
+    bottom: 100px;
+    width: 100%;
+    text-align: bottom;
+    padding: 10px 0;
+  }
+  
+  .contacto img{
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .a-footer{
+    text-decoration: none;
+    color: #303030;
+  }
+  
+  .copy{
+    margin-top: 50px;
+  }
+ 
+#footer{
+    background-color: #f0f0f0;
+    align-self: flex-end;
+}
+
+@media (max-width: 992px) {
+    .Tik img{
+        margin-top: 20px;
+    }
+
+    .Tik button{
+        margin-top: 150px;
+    }
+
+    .aps h2{
+        text-align: center;
+    }
+
+    .aps h6{
+        text-align: center;
+    }
+
+    .aps p{
+        text-align: center;
+    }
+
+    .ntr h2{
+        text-align: center;
+    }
+
+    .ntr h6{
+        text-align: center;
+    }
+
+    .ntr p{
+        text-align: center;
+    }
+
+    .aps img{
+        margin-top: -20px;
+    }
+
+    .aps button{
+        margin-top: 150px;
+    }
+
+    .ntr img{
+        margin-top: -80px;
+    }
+
+    .ntr button{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .Tik img{
+        margin-top: -10px;
+    }
+
+    .Tik button{
+        margin-top: 180px;
+    }
+
+    .aps h2{
+        text-align: center;
+    }
+
+    .ntr h2{
+        text-align: center;
+    }
+
+    .aps img{
+        margin-top: -40px;
+    }
+
+    .aps button{
+        margin-top: 200px;
+    }
+
+    .ntr img{
+        margin-top: -120px;
+    }
+
+    .ntr button{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    #footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
