@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
 
+#help { 
+    margin-top: 90px;
+}
+
 .Syntrax {
     font-family: 'Space Grotesk', sans-serif;
     color: #000;
@@ -32,14 +36,14 @@
   }
 
 
-#experience h1 {
+.experience h1 {
     font-size: 47px;
     padding-left: 23px;
     margin-top: -9px;
     margin-bottom: -7px;
 }
 
-#experience p {
+.experience p {
     padding-left: 24px;
     font-size: 24px;
     line-height: 26px;
@@ -76,7 +80,7 @@ nav a:hover {
     padding-left: 7.5px
 }
 
-#charact {
+.charact {
     margin-top: 25px;
 }
 
@@ -115,11 +119,11 @@ h6 {
     padding-top: 10px;
 }
 
-#experience {
+.experience {
     padding-top: 7%;
 }
 
-#charact img {
+.charact img {
     display: flex;
     margin-left: 60%;
     height: fit-content;
@@ -145,7 +149,7 @@ h6 {
     color: #303030;
 }
 
-#Contact {
+.Contact {
     margin-top: 4%;
 }
 
@@ -158,16 +162,47 @@ h6 {
     font-size: 20px;
 }
 
-#Contact img {
+.Contact img {
     float: inline-start;
 }
 
 .contacto img {
     float: left;
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
-.copyright img {
-    float: left;
+.footer div {
+  flex: 1;
+  margin: 10px;
+
+}
+
+.footer-bottom {
+  bottom: 100px;
+  width: 100%;
+  text-align: bottom;
+  padding: 10px 0;
+}
+
+.contacto img{
+  float: left;
+  margin-right: 5px;
+}
+
+.a-footer{
+  text-decoration: none;
+  color: #303030;
+}
+
+.copy{
+  margin-top: 50px;
 }
 
 .footer {

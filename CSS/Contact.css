@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Epilogue:wght@300&family=Roboto:ital,wght@0,400;1,100&family=Space+Grotesk:wght@700&display=swap');
 
+#help {
+margin-top: 50px;
+}
+
 .Syntrax {
   font-family: 'Space Grotesk', sans-serif;
   color: #000;
@@ -71,7 +75,7 @@ nav a:hover {
   color: #303030;
 }
 
-#Contact{
+.Contact{
   margin-top: 4%;
 }
 
@@ -84,23 +88,8 @@ nav a:hover {
   font-size: 20px;
 }
 
-#Contact img{
+.Contact img{
   float:inline-start;
-}
-
-
-#footer {
-  background-color: #F8F8F8;
-  padding-top: 25px;
-  height: 500px;
-}
-
-.contacto img{
-  float: left;
-}
-
-.copyright img{
-  float: left;
 }
 
 .footer {
@@ -124,10 +113,16 @@ nav a:hover {
   padding: 10px 0;
 }
 
+.contacto img{
+  float: left;
+  margin-right: 5px;
+}
+
 .a-footer{
   text-decoration: none;
   color: #303030;
 }
+
 
 @media (max-width: 992px) {
   .form{
