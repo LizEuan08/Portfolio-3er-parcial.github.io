@@ -123,6 +123,15 @@ nav a:hover {
   color: #303030;
 }
 
-.copy{
-  margin-top: 50px;
+
+@media (max-width: 992px) {
+  .form{
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .form{
+    width: 390px;
+  }
 }

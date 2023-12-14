@@ -160,4 +160,47 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+#footer{
+    margin-top: 200px;
+}
+
+  .footer div {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-bottom {
+    bottom: 100px;
+    width: 100%;
+    text-align: bottom;
+    padding: 10px 0;
+  }
+  
+  .contacto img{
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .a-footer{
+    text-decoration: none;
+    color: #303030;
+  }
+  
+  .copy{
+    margin-top: 50px;
+  }
+
+  @media (max-width: 768px) {
+  }
