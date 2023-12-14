@@ -255,9 +255,17 @@ nav a:hover {
 
   .card{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .cuadrado1{
     max-width: 90%;
+  }
+
+  .hero-image{
+    min-width: 80%;
   }
 }
