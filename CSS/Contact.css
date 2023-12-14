@@ -71,7 +71,7 @@ nav a:hover {
   color: #303030;
 }
 
-#Contact{
+.Contact{
   margin-top: 4%;
 }
 
@@ -84,23 +84,8 @@ nav a:hover {
   font-size: 20px;
 }
 
-#Contact img{
+.Contact img{
   float:inline-start;
-}
-
-
-#footer {
-  background-color: #F8F8F8;
-  padding-top: 25px;
-  height: 500px;
-}
-
-.contacto img{
-  float: left;
-}
-
-.copyright img{
-  float: left;
 }
 
 .footer {
@@ -124,7 +109,16 @@ nav a:hover {
   padding: 10px 0;
 }
 
+.contacto img{
+  float: left;
+  margin-right: 5px;
+}
+
 .a-footer{
   text-decoration: none;
   color: #303030;
+}
+
+.copy{
+  margin-top: 50px;
 }
